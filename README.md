@@ -1,2 +1,5 @@
 # Anomaly-OV
-Implementation of the Expert Part in Anomaly-OV
+1. Download the files
+'''
+scp -r 
+'''
