@@ -93,16 +93,18 @@
 <div class="container">
     <!-- Title -->
     <h1 class="paper-title">Towards Zero-Shot Anomaly Detection and Reasoning with Multimodal Large Language Models</h1>
-    <p class="conference">CVPR 2025 (Data will be released soon!)</p>
+    <p class="conference">CVPR 2025 (Highlight)</p>
     <p class="author">Jiacong Xu, Shao-Yuan Lo, Bardia Safaei, Vishal M. Patel, and Isht Dwivedi</p>
     <p class="affiliation">Johns Hopkins University, Honda Research Institute USA</p>
 
     <!-- Links -->
     <div class="btn-container">
-        <a href="https://arxiv.org/abs/YOUR_ARXIV_ID" class="btn btn-danger btn-custom" target="_blank">📄 ArXiv</a>
+        <a href="https://arxiv.org/abs/2502.07601" class="btn btn-danger btn-custom" target="_blank">📄 ArXiv</a>
         <a href="https://github.com/your-repo" class="btn btn-primary btn-custom" target="_blank">🔗 GitHub</a>
-        <a href="https://example.com/dataset" class="btn btn-success btn-custom" target="_blank">📥 Dataset</a>
-        <a href="https://example.com/benchmark" class="btn btn-warning btn-custom" target="_blank">📊 Benchmark</a>
+        <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#datasetModal">
+            📥 Dataset
+        </button>
+        <a href="https://drive.google.com/file/d/14GlJQ-Vo79K7Hne0YP9FtNTs3hDNHW1q/view?usp=sharing" class="btn btn-warning btn-custom" target="_blank">📊 Benchmark</a>
     </div>
 
     <!-- Abstract -->
@@ -146,7 +148,27 @@
         <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
     </div>
     
-    <p class="footer">© 2025 Jiacong Xu | Last updated: February 2025</p>
+    <p class="footer">© 2025 Jiacong Xu | Last updated: Apr 2025</p>
+
+    <!-- Dataset Modal -->
+<div class="modal fade" id="datasetModal" tabindex="-1" aria-labelledby="datasetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="datasetModalLabel">Dataset Access</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-start">
+            The raw dataset cannot be released publicly at this time due to copyright restrictions.
+            If you are interested in accessing the data, please reach out via email at <strong>jxu155@jhu.edu</strong>.
+            We aim to respond within 24 hours.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
