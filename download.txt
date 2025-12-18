@@ -1,0 +1,12 @@
+Please follow the instructions to access the dataset.
+ 
+Download the dataset (Anomaly-Instruct-125k): https://drive.google.com/drive/folders/1UEV9gFfwP--vrc4Jr_x0LK7d56Gog78D?usp=sharing
+Download the benchmark (VisA-D&R): https://drive.google.com/drive/folders/13bSovqGvEWDqPyrMmhOLNR8sQhfB1wKC?usp=sharing
+ 
+Inside each dataset, there is a ".json" file storing the instruction data. (Except webad, use the file ending with "zero_shot.json"). 
+
+For all the 3D dataset, "*zero_shot2.json" utilizes 4 views to describe the 3D object while "*zero_shot.json" leverages 9 views.
+ 
+For the benchmark, test_data.json is used for evaluating detection performance, visa_dr.json is intended for testing reasoning capability.
+ 
+If you have further questions, please reach us via email: jxu155@jhu.edu (Jiacong Xu)
